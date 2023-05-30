@@ -1,4 +1,3 @@
-print("hello from configurations")
 require "config.options"
 require "config.lazy"
 
