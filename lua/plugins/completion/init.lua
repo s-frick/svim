@@ -91,7 +91,7 @@ return {
             end
             item.kind = icons.kind[item.kind]
             item.menu = source_names[entry.source.name]
-            item.dup = duplicates[entry.source.name] or cmp.formatting.duplicates_default
+            item.dup = duplicates[entry.source.name] or duplicates_default
             return item
           end,
         },
